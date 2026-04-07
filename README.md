@@ -84,3 +84,5 @@ This repository will be updated regularly as I continue learning and building ne
 ## 🤝 Connect With Me
 
 ⭐ If you find this helpful, consider giving it a star!
+# fullstack-web-development-journey
+A complete collection of my full stack web development practice including HTML, CSS, JavaScript, DOM, Node.js, MongoDB, React, and projects.
