@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ShopKart — Desktop Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="topbar container">
+      <div class="brand">
+        <!-- simple text-mark (do not use Flipkart logos) -->
+        <span class="brand-mark">Shop</span><span class="brand-accent">Kart</span>
+      </div>
+
+      <form class="search" action="#" role="search" aria-label="Search products">
+        <input type="search" placeholder="Search for products, brands and more" />
+        <button type="submit" aria-label="Search">Search</button>
+      </form>
+
+      <nav class="user-actions">
+        <a href="#" class="action">Login</a>
+        <a href="#" class="action">Become a Seller</a>
+        <a href="#" class="cart">Cart (0)</a>
+      </nav>
+    </div>
+
+    <div class="categories container">
+      <ul class="cat-list" role="list">
+        <li><a href="#">Electronics</a></li>
+        <li><a href="#">Mobiles</a></li>
+        <li><a href="#">TVs & Appliances</a></li>
+        <li><a href="#">Fashion</a></li>
+        <li><a href="#">Beauty</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Toys</a></li>
+        <li><a href="#">Grocery</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="container main-grid">
+    <aside class="filters" aria-label="Filters">
+      <section class="filter-block">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#">Smartphones</a></li>
+          <li><a href="#">Laptops</a></li>
+          <li><a href="#">Headphones</a></li>
+          <li><a href="#">Cameras</a></li>
+        </ul>
+      </section>
+
+      <section class="filter-block">
+        <h4>Price</h4>
+        <ul>
+          <li><a href="#">Under ₹5,000</a></li>
+          <li><a href="#">₹5,000 - ₹20,000</a></li>
+          <li><a href="#">₹20,000 - ₹50,000</a></li>
+        </ul>
+      </section>
+
+      <section class="filter-block">
+        <h4>Brand</h4>
+        <ul>
+          <li><a href="#">Brand A</a></li>
+          <li><a href="#">Brand B</a></li>
+          <li><a href="#">Brand C</a></li>
+        </ul>
+      </section>
+    </aside>
+
+    <section class="content">
+      <div class="hero">
+        <div class="hero-left">
+          <h1>Big Sale — Up to 60% off</h1>
+          <p>Handpicked deals on electronics, fashion and home — desktop preview.</p>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="hero-right">
+          <!-- decorative placeholder -->
+          <svg viewBox="0 0 400 300" class="hero-image" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1">
+                <stop offset="0" stop-color="#ffe"/>
+                <stop offset="1" stop-color="#fff"/>
+              </linearGradient>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#g)"/>
+            <g transform="translate(40,20)">
+              <rect x="0" y="0" width="120" height="160" rx="8" fill="#f7f7f7" stroke="#e0e0e0"/>
+              <rect x="140" y="20" width="200" height="120" rx="8" fill="#f7f7f7" stroke="#e0e0e0"/>
+              <circle cx="70" cy="210" r="40" fill="#f7f7f7" stroke="#e0e0e0"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="section-title">
+        <h2>Top Offers</h2>
+        <div class="sort">
+          <label>Sort by:</label>
+          <select>
+            <option>Relevance</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>Newest First</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="product-grid" role="list">
+        <!-- repeat product card -->
+        <!-- Card 1 -->
+        <article class="product-card" role="listitem">
+          <div class="p-image">
+            <svg viewBox="0 0 200 160" class="product-svg" aria-hidden="true">
+              <rect width="200" height="160" rx="8" fill="#fafafa" stroke="#e6e6e6"/>
+              <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="14">Image</text>
+            </svg>
+          </div>
+          <div class="p-info">
+            <h3 class="p-title">Wireless Headphones Model X</h3>
+            <div class="p-price">₹3,499</div>
+            <div class="p-meta">Free Delivery • 1 year warranty</div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="product-card" role="listitem">
+          <div class="p-image">
+            <svg viewBox="0 0 200 160" class="product-svg" aria-hidden="true">
+              <rect width="200" height="160" rx="8" fill="#fafafa" stroke="#e6e6e6"/>
+              <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="14">Image</text>
+            </svg>
+          </div>
+          <div class="p-info">
+            <h3 class="p-title">Smartphone Z — 6.7" Display</h3>
+            <div class="p-price">₹24,999</div>
+            <div class="p-meta">No-cost EMI • 128GB</div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="product-card" role="listitem">
+          <div class="p-image">
+            <svg viewBox="0 0 200 160" class="product-svg" aria-hidden="true">
+              <rect width="200" height="160" rx="8" fill="#fafafa" stroke="#e6e6e6"/>
+              <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="14">Image</text>
+            </svg>
+          </div>
+          <div class="p-info">
+            <h3 class="p-title">4K Smart LED TV — 55"</h3>
+            <div class="p-price">₹54,990</div>
+            <div class="p-meta">Exchange Offer • Bestseller</div>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="product-card" role="listitem">
+          <div class="p-image">
+            <svg viewBox="0 0 200 160" class="product-svg" aria-hidden="true">
+              <rect width="200" height="160" rx="8" fill="#fafafa" stroke="#e6e6e6"/>
+              <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="14">Image</text>
+            </svg>
+          </div>
+          <div class="p-info">
+            <h3 class="p-title">Laptop Pro 14 — M-Series</h3>
+            <div class="p-price">₹1,19,990</div>
+            <div class="p-meta">Free delivery • 2 years warranty</div>
+          </div>
+        </article>
+
+        <!-- add more cards as needed -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>About</h4>
+        <p>ShopKart is a demo ecommerce UI created for learning and prototyping.</p>
+      </div>
+
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#">Payments</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bottom-note container">
+      <small>© 2025 ShopKart — Demo site. All trademarks belong to their respective owners.</small>
+    </div>
+  </footer>
+</body>
+</html>

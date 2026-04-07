@@ -1,0 +1,143 @@
+#h22 {
+    color : purple;
+    background-color: gray;
+    text-align: center;
+
+    text-decoration: white line-through;
+}
+
+p {
+    color: brown;
+    background-color: antiquewhite;
+    text-align: center;
+
+    font-family: 'Lucida Sans Typewriter';
+
+    font-weight: bold;
+
+    line-height: 3;
+    letter-spacing: 5px;
+}
+
+h1{
+    text-decoration: rgb(112, 101, 232) underline;
+
+    font-family: 'Luckiest Guy';
+    font-weight: 100;
+}
+
+h3{
+    text-decoration: overline;
+}
+
+input[type = "radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+h1::first-letter {
+    color: orange;
+}
+
+p::first-line {
+    color: orange;
+}
+
+p::selection {
+    color: green;
+
+}
+
+div{
+    height: 100px;
+    width: 500px;
+    background-color: pink;
+    border-style: double;
+    border-color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:10px;
+
+    margin-bottom:25px;
+
+    display: inline;
+    display: block;
+}   
+#flex{
+    color: blue;
+    text-decoration: underline red;
+}
+
+#container {
+    background-color: aqua;
+    height: 500px;
+    width: 1100px;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+div > div {
+    height: 150px;
+    width: 150px;
+    
+}
+
+#containers{
+    background-color:rgb(122, 217, 200);
+    height: 500px;
+    width: 600px;
+    display: grid;
+    /* grid-template-rows: 100px 150px 200px;
+    grid-template-columns: 200px 200px 200px; */
+
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.items{
+    background-color: yellow;
+    height: 50px;
+    width: 80px;
+    
+}
+#pp{
+    font-size: 80px;
+    
+}
+
+#ani {
+    background-color: orange;
+    height: 300px;
+    width: 800px;
+    animation-name: fontsz;
+    animation-duration: 3s;
+    animation-delay: 0ms;
+    animation-direction:alternate;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite; 
+
+
+}
+
+
+
+@keyframes fontsz {
+    from {
+        font-size: 45px;
+        background-color: orange;
+        width: 300px;
+        border-radius: 50%;
+    }
+    
+    to {
+        font-size: 85px;
+        background-color: greenyellow;
+        width: 800px;
+    }
+}

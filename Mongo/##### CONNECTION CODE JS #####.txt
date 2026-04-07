@@ -1,0 +1,14 @@
+// Import the mongoose library to interact with MongoDB
+const mongoose = require('mongoose');
+
+// Call the main function and handle errors if the connection fails
+main().catch(err => console.log(err));
+
+// Define an async function to connect to MongoDB
+async function main() {
+  // Try connecting to MongoDB running on localhost (127.0.0.1), port 27017
+  // Using the database named "test"
+  await mongoose.connect('mongodb://127.0.0.1:27017/test');
+  
+  console.log("✅ Connected to MongoDB successfully!");
+}

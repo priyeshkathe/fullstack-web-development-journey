@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notes</title>
+    </head>
+    <body>
+        <!-- PARAGRAPH TAG-->
+        <h1>Basic Paragraph :</h1>
+        <p> Hello World</p>
+        <p> Priyesh Kathe</p>
+        <!-- NESTED TAG  here <b> is nested tag-->
+        <p> Priyesh kathe. <b> This Bold is Nested Tag </b></p><hr>
+    
+        <!-- HEADINGS TAG-->
+        <h1>heading 1 </h1>
+        <h2>heading 2</h2>
+        <h3>heading 3</h3>
+        <h4>heading 4</h4>
+        <h5>heading 5</h5>
+        <h6>heading 6</h6><hr>
+        
+        <!-- UNORDERED LIST  lists comes with bullets-->
+        <h1>Unordered List</h1>
+        <ul>
+            <li>Bread</li>
+            <li>Butter</li>
+            <li>Jam</li>
+        </ul>
+
+        <!--ORDERED LIST defaul it comes with number 1,2,3-->
+        <h1>Ordered List</h1>
+        <ol>
+            <li>Bread</li>
+            <li>Butter</li>
+            <li>Jam</li>
+        </ol>
+
+        <!--ORDERED LIST WITH ATTRIBUTES-->
+        <ol type="A">
+            <li>Bread</li>
+            <li>Butter</li>
+            <li>Jam</li>
+        </ol><hr>
+
+        <!--ANCHOR ELEMENT-->
+        <h1> Anchor Element</h1>
+        <a href="https://www.google.com/">Open Google</a>
+
+        <!--IMAGE ELEMENT-->
+        <h1> Image Element</h1>
+        <img src="cube.jpeg" alt="Cube Image" height="100px" width="100px">
+        <hr>
+        <!--BOLD ITALIC UNDERLINE-->
+        <h1>Different Tags in Html</h1>
+        <p>Twinkle Twinkle <br> little star <br> how i wonder<br> what you are</p>
+        <b>Bold</b> <br>
+        <i>Italic</i> <br>
+        <u>Undreline</u><br>
+        <hr>
+        <!-- DIV ELEMENT AND SPAN ELEMENT-->
+         <h1>DIV & SPAN Element</h1>
+         <div>
+            <a href="https://www.google.com/">Google</a>
+            <a href="https://www.youtube.com/">Youtube</a>
+        </div>
+        <a href="https://www.facebook.com/">FaceBook</a>
+        
+        <span>
+            <a href="https://www.google.com/">Google</a>
+            <a href="https://www.youtube.com/">Youtube</a>
+        </span>
+        <a href="https://www.facebook.com/">FaceBook</a>
+        <hr>
+
+        <!--SUBSCRIPT AND SUPERSCRIPT-->
+        <p>Subscript : H<sub>2</sub>O</p>
+        <p>Superscript : a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup></p>
+        <hr>
+
+        <!--Header tag-->
+        <header>Priyesh Kathe</header>
+        <main>This is my main tag</main>
+        <footer> This my foote tag </footer>
+        <hr>
+
+        <!--HTML ENTITIES-->
+
+        <p>a &lt; b</p>
+        <p>a &gt; b</p>
+        <p>a &amp; b</p>
+        <p>a &nbsp; b</p>
+        <p>a &quot;b&quot;</p>
+        <h1>&hearts; &star; &bigstar;</h1>
+        <hr>
+
+        <!--TABLES-->
+        <table border="black">
+            <caption>Menu Card</caption>
+            <tr>
+                <th>Item</th>
+                <th>Price(in rs)</th>
+            </tr>
+            <tr>
+                <td>Coca Cola</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>VadaPav</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Pav</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Misal</td>
+                <td>150</td>
+            </tr>
+
+        </table>
+        <hr>
+
+        <!--SEMANTICS IN TABLE -->
+        <table border="black">
+            <caption>Bill</caption>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price(in rs)</th>
+                </tr>
+
+                <tr>
+                    <th> This is Second row <br>for table header</th>
+                    <th> This is Second row <br>for table header</th>
+                </tr>
+            </thead>
+            
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <th>190rs</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Coca Cola</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>VadaPav</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Pav</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Misal</td>
+                    <td>150</td>
+                </tr>
+    
+            </tbody>
+            
+            
+
+        </table>
+        <hr>
+        <!--COLSPAN and ROWSSPAN-->
+        <table border="Pink">
+            <caption>Total Bill</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Items</th>
+                    <th colspan="2">Price</th>
+                </tr>
+                <tr>
+                    <th>INR</th>
+                    <th>USD</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Idli</td>
+                <td>50</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Sambar</td>
+                <td>10</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Chutni</td>
+                <td>25</td>
+                <td>10</td>
+            </tr>
+            
+        </table>
+        <hr>
+
+        <!--FORMS IN HTML-->
+        <form action="/Server">
+            <label>
+                Enter Password
+                <input type="password" placeholder="password"><br>
+            </label>
+            
+            <input placeholder="Default input"><br>
+            
+            <label for="Number">Number :</label>
+            
+            <input type="number" placeholder="Number" id="Number"><br>
+            <label for="time">Time</label>
+            <input type="time" placeholder="Time" id="time"><br>
+            
+            <input type="color" placeholder="Color"><br>
+
+            <button>Sumbit</button>
+            <button type="submit">Done</button>
+            <button type="button">Button</button>
+            <button type="reset">Reset</button>
+            <input type="button" value="Click ME">
+            <input type="submit">
+            <hr>
+        </form>
+
+        <!--NAME ATTRIBUTE-->
+        <form action="https://www.youtube.com/results">
+        <input type="text" placeholder = "YT search" id = "yt_search" name="search_query"   >
+        <button>Search</button>
+
+        <hr>
+        <!--CHECKBOX-->
+        <input type="checkbox" name="age" id="age" checked />
+        <lable for="age">I am 18+</lable>
+        <button>Sumbit</button>
+        <hr>
+
+        <!--Radio-->
+        <input type="radio" name="fruit" id="apple" value="apple" />
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruit" id="banana" value="banana"/>
+        <label for="banana">Banana</label>
+        <input type="radio" name="fruit" id="Mango" value="mango"/>
+        <label for="Mango">Mango</label>
+        <button>Sumbit</button>
+<hr>
+        <!--Drop Down-->
+        <select name="Subjects" id="Subjects">
+            <option value="defaul">Select Your Option</option>
+            <option value="Physics">physics</option>
+            <option value="chemistry" selected>chemistry</option>
+        </select>
+        <button>Sumbit</button>
+<hr>
+        <!--RANGE-->
+        <label for="volume">Volume</label>
+        <input type="range" min="0" max="100" name="vol" step="10">
+        <button>Sumbit</button>
+        <hr>
+
+        <!--TEXTAREA-->
+        <label for="feedback">Please give you feedback :</label>
+        <textarea id ="feedback" name="feedback" placeholder="Write Here"></textarea>
+        <button>Sumbit</button>
+    </body>
+</html>
